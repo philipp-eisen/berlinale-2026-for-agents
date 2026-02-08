@@ -1,0 +1,18 @@
+{
+  "name": "@berlinale/ingest",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "db:migrate": "bun src/cli.ts init-db",
+    "db:inspect": "bun src/cli.ts inspect-db",
+    "db:query": "bun src/cli.ts query-db",
+    "ingest:program": "bun src/cli.ts ingest-program",
+    "enrich:imdb": "bun src/cli.ts enrich-imdb",
+    "db:verify": "bun src/cli.ts verify-db",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@berlinale/db": "workspace:*",
+    "@berlinale/domain": "workspace:*"
+  }
+}

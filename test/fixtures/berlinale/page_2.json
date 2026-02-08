@@ -1,0 +1,34 @@
+{
+  "page": 2,
+  "totalPages": 2,
+  "hasNext": false,
+  "items": [
+    {
+      "id": "film-2",
+      "title": "Closing Night",
+      "year": 2026,
+      "country": "FR",
+      "section": "Panorama",
+      "credits": [
+        {
+          "id": "person-2",
+          "name": "Sam Writer",
+          "roleType": "crew",
+          "roleName": "Writer",
+          "order": 1
+        }
+      ],
+      "screenings": [
+        {
+          "id": "screening-2",
+          "startsAt": "2026-02-20T20:30:00Z",
+          "venue": {
+            "id": "venue-2",
+            "name": "Zoo Palast",
+            "address": "Hardenbergstrasse 29A"
+          }
+        }
+      ]
+    }
+  ]
+}

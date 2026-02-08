@@ -1,0 +1,8 @@
+{
+  "name": "@berlinale/domain",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/types.ts"
+  }
+}

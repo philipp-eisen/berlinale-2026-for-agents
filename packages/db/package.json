@@ -1,0 +1,9 @@
+{
+  "name": "@berlinale/db",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/client.ts",
+    "./migrate": "./src/migrate.ts"
+  }
+}

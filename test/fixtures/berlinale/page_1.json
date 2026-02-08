@@ -1,0 +1,39 @@
+{
+  "page": 1,
+  "totalPages": 2,
+  "hasNext": true,
+  "items": [
+    {
+      "id": "film-1",
+      "title": "Opening Night",
+      "originalTitle": "Ouverture",
+      "year": 2026,
+      "runtimeMinutes": 101,
+      "country": "DE",
+      "section": "Competition",
+      "synopsis": "A test fixture film.",
+      "credits": [
+        {
+          "id": "person-1",
+          "name": "Alex Director",
+          "roleType": "crew",
+          "roleName": "Director",
+          "order": 1
+        }
+      ],
+      "screenings": [
+        {
+          "id": "screening-1",
+          "startsAt": "2026-02-14T18:00:00Z",
+          "format": "2D",
+          "ticketUrl": "https://example.org/tickets/1",
+          "venue": {
+            "id": "venue-1",
+            "name": "Berlinale Palast",
+            "address": "Marlene-Dietrich-Platz 1"
+          }
+        }
+      ]
+    }
+  ]
+}
